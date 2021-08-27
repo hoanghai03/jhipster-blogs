@@ -45,7 +45,7 @@ spring:
   liquibase:
     contexts: prod
   mail:
-    host: localhost
+    host: ec2-52-86-25-51.compute-1.amazonaws.com
     port: 25
     username:
     password:
@@ -107,7 +107,7 @@ jhipster:
     use-json-format: false # By default, logs are not in Json format
     logstash: # Forward logs to logstash over a socket, used by LoggingConfiguration
       enabled: false
-      host: localhost
+      host: ec2-52-86-25-51.compute-1.amazonaws.com
       port: 5000
       queue-size: 512
 # ===================================================================
